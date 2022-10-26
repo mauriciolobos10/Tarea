@@ -23,7 +23,7 @@ const Home2 = () => {
 
     const cargarImagenes = () => {
         //console.log("hola");
-        setCargando(true);
+        setCargando(true); 
         console.log("verdadero");
         axios.get("https://dog.ceo/api/breeds/image/random").then(
             (response) => {
